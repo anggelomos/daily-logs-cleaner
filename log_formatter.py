@@ -1,17 +1,4 @@
 #!/usr/bin/env python3
-"""
-Telegram Log Formatter
-
-This script processes Telegram log messages from the clipboard,
-reformats them, and puts the processed text back into the clipboard.
-
-Format changes from:
-    Message content
-    HH:MM AM/PM
-To:
-    HH:MM AM/PM - Message content
-"""
-
 import re
 import pyperclip
 
