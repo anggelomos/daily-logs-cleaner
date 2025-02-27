@@ -19,3 +19,13 @@ This tool automatically reformats them to:
 ```
 
 Making your logs more readable and consistent.
+
+## 📦 Creating an Executable
+
+To create a standalone executable file that doesn't require Python to be installed:
+
+```
+poetry run pyinstaller --onefile --noconsole --optimize=2 --clean log_formatter.py
+```
+
+This will create a single executable file in the `dist` directory that you can distribute or use on systems without Python.
